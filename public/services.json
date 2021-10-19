@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Dental Sugery",
+        "description": "Surgical dentistry is a branch of dentistry that practices treatment methods like teeth preservation operations, bone  of teeth, as well as a variety.",
+        "img": "https://i.ibb.co/sQVnZbh/descroption.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cardiology",
+        "description": "The European Society of Cardiology (ESC) is an independent, nonprofit organisation aiming to reduce the burden of cardiovascular disease..",
+        "img": "https://i.ibb.co/fQXT5Cz/cardiology-treatment-service-500x500.png"
+    },
+    {
+        "id": 3,
+        "name": "General Surgery",
+        "description": "General surgery is a surgical specialty that focuses on abdominal contents including the esophagus, stomach, small intestine, large intestine.",
+        "img": "https://i.ibb.co/0GGyYyB/498861644.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Neurology",
+        "description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex.",
+        "img": "https://i.ibb.co/7Sygx7y/Mental-health-conceptual-image.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dermatology",
+        "description": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A  is a specialist medical doctor.",
+        "img": "https://i.ibb.co/yVP8vgW/dermatology.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Labrotory Test",
+        "description": "Clinical laboratory test results play an integral role in the identification, assessment, and treatment of patients with . While every effort is made",
+        "img": "https://i.ibb.co/NT9fLFH/labtest.jpg"
+    }
+]
