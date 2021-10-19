@@ -7,6 +7,7 @@ import Login from './pages/Login/Login';
 import Header from './pages/Shared/Header/Header';
 import NotFound from './pages/NotFound/NotFound';
 import Footer from './pages/Footer/Footer';
+import About from './pages/About/About';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/services">
             <Services></Services>
+          </Route>
+          <Route path="/about">
+            <About></About>
           </Route>
           <Route path="/login">
             <Login></Login>

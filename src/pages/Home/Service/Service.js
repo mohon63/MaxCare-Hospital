@@ -1,12 +1,13 @@
 import React from 'react';
+import './service.css';
 import { Button, Card } from 'react-bootstrap';
 
 const Service = ({ service }) => {
     const { id, name, description, img } = service;
     return (
         <div className="col-md-4">
-            <Card className="my-3">
-                <Card.Img variant="top" src={img} />
+            <Card className="my-3 ">
+                <Card.Img className="img-hight" variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>
