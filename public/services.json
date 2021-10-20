@@ -2,37 +2,61 @@
     {
         "id": 1,
         "name": "Dental Sugery",
+        "price": "300",
+        "question": "How it will get improve you?",
         "description": "Surgical dentistry is a branch of dentistry that practices treatment methods like teeth preservation operations, bone  of teeth, as well as a variety.",
-        "img": "https://i.ibb.co/sQVnZbh/descroption.jpg"
+        "img": "https://i.ibb.co/sQVnZbh/descroption.jpg",
+        "description2": "Many times, when a dentist mentions dental surgery it is met with widespread panic and fear from their patients.  The idea is that dental surgery is a painful and expensive procedure. However, what many patients don’t realize is that dental surgery is very common and includes procedures that address conditions that many people have and suffer from. Each patient is different and every case is treated accordingly. For the most part, dental surgery is considered an outpatient procedure and patients can generally resume normal activity within a few days.",
+        "message": "The most common types of dental surgery are procedures that many people may not consider dental surgery, because they are so routine – such as orthodonture work or teeth whitening."
     },
     {
         "id": 2,
         "name": "Cardiology",
+        "price": "310",
+        "question": "How it will get improve you?",
         "description": "The European Society of Cardiology (ESC) is an independent, nonprofit organisation aiming to reduce the burden of cardiovascular disease..",
-        "img": "https://i.ibb.co/fQXT5Cz/cardiology-treatment-service-500x500.png"
+        "img": "https://i.ibb.co/fQXT5Cz/cardiology-treatment-service-500x500.png",
+        "description2": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine. ... A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system.",
+        "message": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system."
     },
     {
         "id": 3,
         "name": "General Surgery",
+        "price": "100",
+        "question": "How it will get improve you?",
         "description": "General surgery is a surgical specialty that focuses on abdominal contents including the esophagus, stomach, small intestine, large intestine.",
-        "img": "https://i.ibb.co/0GGyYyB/498861644.jpg"
+        "img": "https://i.ibb.co/0GGyYyB/498861644.jpg",
+        "description2": "General Surgery is a discipline of surgery having a central core of knowledge embracing anatomy, physiology, metabolism, immunology, nutrition, pathology, wound healing, shock and resuscitation, intensive care, and neoplasia, which are common to all surgical specialties.",
+        "message": "General surgery is a surgical specialty that focuses on abdominal contents including the esophagus."
     },
     {
         "id": 4,
         "name": "Neurology",
+        "price": "200",
+        "question": "How it will get improve you?",
         "description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex.",
-        "img": "https://i.ibb.co/7Sygx7y/Mental-health-conceptual-image.jpg"
+        "img": "https://i.ibb.co/7Sygx7y/Mental-health-conceptual-image.jpg",
+        "description2": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle.",
+        "message": "Neurology Patient Pages. Critical reviews of ground-breaking discoveries in neurological research written especially for patients and their families."
     },
     {
         "id": 5,
         "name": "Dermatology",
+        "price": "170",
+        "question": "How it will get improve you?",
         "description": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A  is a specialist medical doctor.",
-        "img": "https://i.ibb.co/yVP8vgW/dermatology.jpg"
+        "img": "https://i.ibb.co/yVP8vgW/dermatology.jpg",
+        "description2": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist medical doctor who manages diseases related to skin, hair, nails, and some cosmetic problems. with widespread panic and fear from their patients.  The idea is that dental surgery is a painful and expensive procedure. However, what many patients don’t realize is that dental surgery is very common and includes procedures that address conditions that many people have and suffer from. Each patient is different and every case is treated accordingly. For the most part, dental surgery is considered an outpatient procedure and patients can generally resume normal activity within a few days.",
+        "message": "Board-certified dermatologists are the only physicians with advanced medical training to diagnose and treat skin, hair, and nail conditions."
     },
     {
         "id": 6,
         "name": "Labrotory Test",
+        "price": "150",
+        "question": "How it will get improve you?",
         "description": "Clinical laboratory test results play an integral role in the identification, assessment, and treatment of patients with . While every effort is made",
-        "img": "https://i.ibb.co/NT9fLFH/labtest.jpg"
+        "img": "https://i.ibb.co/NT9fLFH/labtest.jpg",
+        "description2": "Laboratory tests check a sample of your blood, urine, or body tissues. A technician or your doctor analyzes the test samples to see if your results fall within the normal range. The tests use a range because what is normal differs from person to person. Many factors affect test results. These include.",
+        "message": "Your doctor may also compare your results to results from previous tests. Laboratory tests are often part of a routine checkup to look for changes in your health."
     }
 ]

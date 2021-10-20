@@ -8,7 +8,7 @@ import expertise4 from '../../images/about/Expertise4.jpg'
 const About = () => {
     return (
         <div>
-            <div className="container">
+            <div className="container about">
                 <h2 class="header">World-class Care</h2>
                 <p>Founded in 1980, Bumrungrad International Hospital has been a global pioneer in providing world-class healthcare services and international patient support for nearly four decades. Located in the heart of Bangkok, Thailand, a cosmopolitan megacity nicknamed “The City of Angels” and renowned for its culture of exceptional hospitality and delicious cuisine. Bumrungrad is an internationally accredited, multi-specialty hospital listed on the Stock Exchange of Thailand since 1989. One of the largest private hospitals in Southeast Asia, Bumrungrad International Hospital cares for over 1.1 million patients from more than 190 countries annually.</p>
                 <article>
