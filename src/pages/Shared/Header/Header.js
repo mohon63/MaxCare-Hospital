@@ -7,9 +7,9 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
-            <Navbar fixed="top" bg="dark" variant="dark">
+            <Navbar fixed="top" bg="dark" variant="dark" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Maxcare Hospital</Navbar.Brand>
+                    <Navbar.Brand as={HashLink} to="/home">Maxcare Hospital</Navbar.Brand>
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
@@ -19,9 +19,18 @@ const Header = () => {
                             <Button onClick={logOut} variant="light">LogOut</Button> :
                             <Nav.Link as={HashLink} to="/login">LogIn</Nav.Link>
                         }
-                        <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName}</a>
-                        </Navbar.Text>
+
+                        <Nav.Link>
+                            <a className="nav-link d-none d-sm-inline-block" href="#">
+                                {user.email ? <img style={{ height: '50px', widows: '50px', borderRadius: '50px', overflow: 'hidden' }}
+                                    src={user?.photoURL}
+                                    className="avatar img-fluid rounded-circle me-1" alt="Chris Wood" /> :
+                                    <img style={{ height: '50px', widows: '50px', borderRadius: '50px', overflow: 'hidden' }}
+                                        src="https://www.seekpng.com/png/full/847-8474751_download-empty-profile.png"
+                                        className="avatar img-fluid rounded-circle me-1" alt="Chris Wood" />}
+                                <span className="text-white">{user?.displayName}</span>
+                            </a>
+                        </Nav.Link>
                     </Navbar.Collapse>
 
                 </Container>

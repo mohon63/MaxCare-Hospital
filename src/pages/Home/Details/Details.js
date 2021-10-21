@@ -22,7 +22,8 @@ const Details = () => {
                 </div>
                 <div className="col-md-4">
                     <h4>Service No {serviceId}</h4>
-                    <p>{services?.message}</p>
+                    <span className="bg-dark text-white p-1 rounded-pill">{services?.name}</span>
+                    <p className="bg-info text-white p-2 mt-3 rounded-end">{services?.message}</p>
                 </div>
             </div>
         </div>
